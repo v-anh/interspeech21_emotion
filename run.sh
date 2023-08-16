@@ -8,7 +8,7 @@ export WORKER_NUM=4
 python run_emotion.py \
 --output_dir=output/tmp \
 --cache_dir=cache/ \
---num_train_epochs=200 \
+--num_train_epochs=50 \
 --per_device_train_batch_size="2" \
 --per_device_eval_batch_size="2" \
 --gradient_accumulation_steps=$ACC \
